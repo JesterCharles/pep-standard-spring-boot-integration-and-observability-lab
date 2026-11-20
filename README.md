@@ -88,10 +88,6 @@ The lab writes only `starter/target`:
 - macOS and Linux: `rm -rf target`
 - Windows PowerShell: `Remove-Item -Recurse -Force target`
 
-## Start a file over
-
-To put a file you edited back to its shipped version, run `git restore <file>` from the repository root, for example `git restore tests/ops/OpsIntegrationTest.java`. This discards your changes to that file only; copy anything you want to keep first.
-
 ## Troubleshooting
 
 - **`task3` reports an exception instead of UNKNOWN**: the catch block is missing or catches the wrong type; `RestClientException` is the common supertype for client failures.
